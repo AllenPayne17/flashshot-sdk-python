@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=64", "wheel"]
-build-backend = "setuptools.backends._legacy:_Backend"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "flashshot"
@@ -13,7 +13,6 @@ dependencies = ["requests>=2.20.0"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
@@ -25,9 +24,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://flashshot.dev"
-Documentation = "https://docs.flashshot.dev"
-Repository = "https://github.com/flashshot/flashshot-python"
+Homepage = "https://www.flashshot.dev"
+Documentation = "https://www.flashshot.dev/docs"
+Repository = "https://github.com/AllenPayne17/flashshot-sdk-python"
 
 [tool.setuptools.packages.find]
 include = ["flashshot*"]
