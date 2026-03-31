@@ -317,7 +317,7 @@ MIT -- see [LICENSE](LICENSE) for details.
 
 ## Links
 
-- [Website](https://flashshot.dev)
-- [Documentation](https://docs.flashshot.dev)
-- [Dashboard](https://dashboard.flashshot.dev)
+- [Website](https://www.flashshot.dev)
+- [Documentation](https://www.flashshot.dev/docs)
+- [Dashboard](https://www.flashshot.dev/dashboard)
 - [PyPI Package](https://pypi.org/project/flashshot/)
