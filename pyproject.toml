@@ -4,12 +4,28 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "flashshot"
-version = "1.0.0"
-description = "Python SDK for the FlashShot Screenshot API"
+version = "1.0.1"
+description = "Screenshot API SDK — capture any website URL and get a hosted image with AI analysis. Supports ad blocking, stealth mode, device emulation, and caching."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.8"
 dependencies = ["requests>=2.20.0"]
+keywords = [
+    "screenshot",
+    "screenshot-api",
+    "website-screenshot",
+    "url-to-image",
+    "webpage-capture",
+    "html-to-image",
+    "headless-browser",
+    "ai-analysis",
+    "flashshot",
+    "screen-capture",
+    "website-thumbnail",
+    "ad-blocking",
+    "stealth-mode",
+    "device-emulation",
+]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
@@ -27,6 +43,8 @@ classifiers = [
 Homepage = "https://www.flashshot.dev"
 Documentation = "https://www.flashshot.dev/docs"
 Repository = "https://github.com/AllenPayne17/flashshot-sdk-python"
+Issues = "https://github.com/AllenPayne17/flashshot-sdk-python/issues"
+Changelog = "https://github.com/AllenPayne17/flashshot-sdk-python/releases"
 
 [tool.setuptools.packages.find]
 include = ["flashshot*"]

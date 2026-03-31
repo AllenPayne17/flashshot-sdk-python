@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+flashshot/__init__.py
+flashshot/client.py
+flashshot/exceptions.py
+flashshot/py.typed
+flashshot/types.py
+flashshot.egg-info/PKG-INFO
+flashshot.egg-info/SOURCES.txt
+flashshot.egg-info/dependency_links.txt
+flashshot.egg-info/requires.txt
+flashshot.egg-info/top_level.txt
